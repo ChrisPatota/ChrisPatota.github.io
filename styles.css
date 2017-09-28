@@ -4,6 +4,7 @@ body {
 	margin: 0px auto;
 	background: url('theclashlondoncalling.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 0px;
 }
 
@@ -17,6 +18,7 @@ h1 {
 	font-style: italic;
 	background: gray;
 	padding: 25px;
+	margin: 0;
 }
 
 h2 {

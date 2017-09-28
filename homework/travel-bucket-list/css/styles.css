@@ -1,0 +1,36 @@
+body {
+	background: rgba(217, 217, 217, 1);
+}
+
+h1 {
+	text-align: center;
+	background: rgb(12, 195, 149);
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 27px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	padding: 15px;
+}
+
+#navigation {
+	text-align: center;
+	padding: 15px 0;
+}
+
+#navigation ul {
+	list-style-type: none;
+}
+
+#navigation li {
+	display: inline-block;
+	padding: 0 15px;
+}
