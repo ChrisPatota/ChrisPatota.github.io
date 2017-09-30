@@ -25,11 +25,6 @@ img {
 	margin: 0 auto;
 }
 
-p {
-	font-size: 14px;
-	margin: 15px 0 0 0;
-}
-
 .content{
 	padding: 25px 25px 30px 25px;
 	margin-bottom: 30px;
@@ -42,7 +37,6 @@ p {
 
 .footer {
 	text-align: center;
-	margin-bottom: 15px
 }
 
 #container {
@@ -54,7 +48,6 @@ p {
 
 #navigation {
 	text-align: center;
-	font-weight: bold;
 	padding: 0;
 }
 
@@ -64,7 +57,7 @@ p {
 
 #navigation li {
 	display: inline-block;
-	padding: 0px 15px;
+	padding: 10px 15px;
 }
 
 #block-2 {
