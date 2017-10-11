@@ -1,0 +1,168 @@
+body {
+	font-family: lato;
+	background: gray;
+}
+
+h1 {
+	color: rgb(220, 34, 60);
+	font-weight: normal;
+	float: left;
+	width: 200px;
+	margin: 0px;
+}
+
+h3 {
+	float: left;
+	width: 300px;
+	margin-top: 14px;
+	margin-left: -30px;
+	font-weight: normal;
+	color: rgb(147, 154, 160);
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background: white;
+	padding: 25px 50px 25px 50px;
+	overflow: hidden;
+}
+
+.top-nav {
+	padding-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.top-nav ul {
+	list-style-type: none;
+    max-width: 100%;
+}
+
+.top-nav li {
+	display: inline-block;
+	background: black;
+	padding: 10px 35px 10px 35px;
+	margin: -1px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.top-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.read-more {
+	text-align: right;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.read-more a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(220, 34, 60);
+}
+
+.date {
+	font-size: 22px;
+	color: rgb(223, 223, 223);
+	padding-top: 20px;
+}
+
+.article-title {
+	font-size: 22px;
+	color: black;
+	padding: 10px 0;
+}
+
+.article-copy {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.article-copy p::first-letter{
+	font-size: 72px;
+	color: rgb(216, 216, 216);
+	line-height: 1;
+	float: left;
+	margin-top: -5px;
+}
+
+.rail-header {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.rail-copy {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.ad {
+	padding: 20px 0;
+	border-bottom: 1px solid rgb(223, 223, 223);
+	margin-bottom: 20px;
+}
+
+.popular-posts {
+	margin-top: -10px;
+}
+
+.popular-posts ul {
+	list-style-type: circle;
+}
+
+.popular-posts li {
+	font-size: 14px;
+	color: gray;
+}
+
+.popular-posts a {
+	text-decoration: none;
+	color: rgb(220, 34, 60);
+}
+
+.footer-nav {
+	padding-left: 0px;
+	font-size: 14px;
+}
+
+.footer-nav ul {
+	list-style-type: none;
+}
+
+.footer-nav li {
+	display: inline-block;
+	color: rgb(220, 34, 60);
+	font-size: 14px;
+}
+
+#main {
+	width: 60%;
+	float: left;
+}
+
+#main img {
+	max-width: 100%;
+}
+
+#right-rail {
+	width: 35%;
+	float: right;
+	margin-top: 30px;
+}
+
+#right-rail img {
+	max-width: 95%;
+	display: block;
+	margin: 0 auto;
+}
+
+
