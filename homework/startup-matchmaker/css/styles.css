@@ -66,8 +66,9 @@ footer {
 
 .hero-image {
 	background: url('../img/coworking.jpg');
-	background-size: auto;
+	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	overflow: hidden;
 	padding: 50px 25px;
 }
@@ -93,6 +94,10 @@ footer {
 
 .create-profile {
 	width: 100%;
+	background: rgb(255, 254, 0);
+	font-family: 'Oswald', sans-serif;
+	border: 0px;
+	box-shadow: 2px 2px 2px #888888;
 }
 
 .bottom-nav {
@@ -116,6 +121,7 @@ footer {
 	border: 0px;
 	box-shadow: 2px 2px 2px #888888;
 	border-radius: 3px;
+	font-family: 'Oswald', sans-serif;
 }
 
 .border-right {
