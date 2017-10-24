@@ -37,20 +37,20 @@ function sub30() {
 	$('#out').html(total);
 }
 
-$('#red').click(redBackground)
-$('#blue').click(blueBackground)
-$('#out').click(backgroundReset)
+$('#red').click(redBackground);
+$('#blue').click(blueBackground);
+$('#out').click(backgroundReset);
 
 function redBackground() {
-	$('#out').css('background-color','red')
+	$('#out').css('background-color','red');
 }
 
 function blueBackground() {
-	$('#out').css('background-color','blue')
+	$('#out').css('background-color','blue');
 }
 
 function backgroundReset() {
-	$('#out').css('background-color','white')
+	$('#out').css('background-color','white');
 	total = 0
 	$('#out').html(total)
 }
