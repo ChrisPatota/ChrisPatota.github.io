@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+input {
+	font-size: 32px;
+	padding: 0px;
+}
+
+#fahrenheit-entry {
+	display: inline-block;
+	border: 1px solid black;
+	width: 49%;
+}
+
+#celcius-entry {
+	display: inline-block;
+	border: 1px solid black;
+	width: 49%;
+	float: right;
+}
+
+.container {
+	border: 1px solid black;
+}

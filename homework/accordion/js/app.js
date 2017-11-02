@@ -6,6 +6,6 @@
 // 4. Once you find the .wrapper, use the .slideToggle() function to trigger the desired behavior
 
 $('.row').click(function() {
-	$('.wrapper').slideUp(700)
+	//$('.wrapper').slideUp(700)
 	$(this).find('.wrapper').slideToggle(700)
 })
