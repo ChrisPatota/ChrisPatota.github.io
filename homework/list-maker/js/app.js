@@ -18,9 +18,11 @@ function handleClick (item) {
 	emptyItem();
 }
 
-function emptyItem () {
-	$('#item').val('');
+$(document).on('click', 'li', function() {
+	$(this).remove();
 }
+
+	)
 
 
 
