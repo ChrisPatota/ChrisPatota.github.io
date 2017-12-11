@@ -8,7 +8,8 @@ function playKick() {
 	var sound = new Howl({
   	src: ['assets/kick.mp3']
 	});
-  	sound.play();
+  	var id1 = sound.play();
+  	sound.play(id1);
 	$('#kick').removeClass('inactive')
 	$('#kick').addClass('active')
 	console.log('click')
