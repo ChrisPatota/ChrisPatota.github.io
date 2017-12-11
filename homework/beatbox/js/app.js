@@ -1,3 +1,7 @@
+// keydown and keyup handlers for beatbox
+// sound files are pulled from open freesound.org
+// I used the howler.js library to call and play the sounds
+
 $(document).on('keydown', function(q) {
 	if (q.which === 81) {
 		playKick()
@@ -11,7 +15,7 @@ function playKick() {
   	sound.play();
 	$('#kick').removeClass('inactive')
 	$('#kick').addClass('active')
-	console.log('click')
+	console.log('boom')
 }
 
 $(document).on('keyup', function(q) {
@@ -23,6 +27,15 @@ $(document).on('keyup', function(q) {
 function resetKick() {
 	$('#kick').removeClass('active')
 	$('#kick').addClass('inactive')
+}
+
+// these handle clicks on buttons for mobile
+
+$('#kick').click(kickClick)
+
+function kickClick() {
+	playKick();
+	resetKick();
 }
 
 $(document).on('keydown', function(w) {
@@ -38,7 +51,7 @@ function playHihat() {
   	sound.play();
 	$('#hi-hat').removeClass('inactive')
 	$('#hi-hat').addClass('active')
-	console.log('click')
+	console.log('tick')
 }
 
 $(document).on('keyup', function(w) {
@@ -46,6 +59,13 @@ $(document).on('keyup', function(w) {
 		resetHihat()
 	}
 })
+
+$('#hi-hat').click(hihatClick)
+
+function hihatClick() {
+	playHihat();
+	resetHihat();
+}
 
 function resetHihat() {
 	$('#hi-hat').removeClass('active')
@@ -65,7 +85,7 @@ function playSnare() {
   	sound.play();
 	$('#snare').removeClass('inactive')
 	$('#snare').addClass('active')
-	console.log('click')
+	console.log('pop')
 }
 
 $(document).on('keyup', function(a) {
@@ -77,6 +97,13 @@ $(document).on('keyup', function(a) {
 function resetSnare() {
 	$('#snare').removeClass('active')
 	$('#snare').addClass('inactive')
+}
+
+$('#snare').click(snareClick)
+
+function snareClick() {
+	playSnare();
+	resetSnare();
 }
 
 $(document).on('keydown', function(s) {
@@ -92,7 +119,7 @@ function playCrash() {
   	sound.play();
 	$('#crash').removeClass('inactive')
 	$('#crash').addClass('active')
-	console.log('click')
+	console.log('pshhh')
 }
 
 $(document).on('keyup', function(s) {
@@ -104,6 +131,13 @@ $(document).on('keyup', function(s) {
 function resetCrash() {
 	$('#crash').removeClass('active')
 	$('#crash').addClass('inactive')
+}
+
+$('#crash').click(crashClick)
+
+function crashClick() {
+	playCrash();
+	resetCrash();
 }
 
 $('#first-loop').on('click', playRhodes)
