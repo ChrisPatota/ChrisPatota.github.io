@@ -32,7 +32,9 @@ h1, h2 {
 }
 
 .instructions {
-	background: gray;
 	width: 20px;
 	margin: 0 auto;
+	text-align: center;
+	font-size: 22px;
+	padding: 0 0 10px 8px;
 }
