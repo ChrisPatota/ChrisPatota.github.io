@@ -1,0 +1,38 @@
+h1, h2 {
+	font-family: helvetica;
+}
+
+
+#beat-box-container {
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	font-family: helvetica;
+}
+
+#kick, #snare, #hi-hat, #crash, #first-loop, #second-loop, #reset {
+	border: 1px solid black;
+	width: 50px;
+	height: 60px;
+	margin: 3px;
+	padding: 10px;
+}
+
+#beat-box-container div {
+	width: 100%;
+	display: flex;
+}
+
+.active {
+	background: green;
+}
+
+.inactive {
+	background: white;
+}
+
+.instructions {
+	background: gray;
+	width: 20px;
+	margin: 0 auto;
+}
