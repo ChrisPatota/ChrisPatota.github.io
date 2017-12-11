@@ -8,9 +8,7 @@ function playKick() {
 	var sound = new Howl({
   	src: ['assets/kick.mp3']
 	});
-	sound.once('load', function(){
   	sound.play();
-	});
 	$('#kick').removeClass('inactive')
 	$('#kick').addClass('active')
 	console.log('click')
@@ -37,9 +35,7 @@ function playHihat() {
 	var sound = new Howl({
   	src: ['assets/hihat.mp3']
 	});
-	sound.once('load', function(){
   	sound.play();
-	});
 	$('#hi-hat').removeClass('inactive')
 	$('#hi-hat').addClass('active')
 	console.log('click')
@@ -66,9 +62,7 @@ function playSnare() {
 	var sound = new Howl({
   	src: ['assets/snare.mp3']
 	});
-	sound.once('load', function(){
   	sound.play();
-	});
 	$('#snare').removeClass('inactive')
 	$('#snare').addClass('active')
 	console.log('click')
@@ -95,9 +89,7 @@ function playCrash() {
 	var sound = new Howl({
   	src: ['assets/crash.mp3']
 	});
-	sound.once('load', function(){
   	sound.play();
-	});
 	$('#crash').removeClass('inactive')
 	$('#crash').addClass('active')
 	console.log('click')
